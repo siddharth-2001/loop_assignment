@@ -2,6 +2,16 @@
 
 This Django project provides backend APIs to monitor the online status of restaurants during their business hours. It leverages three data sources to generate reports for restaurant owners.
 
+## Please refer the video sent along with the submission link
+
+## To Run
+- clone the project into a directory
+- create a virtualenv using command `virtualenv {env_name}`
+- Activate the virtual env then type the command `pip install -r requirements.txt`
+- cd into loop_assignment
+- run command `python manage.py runserver`
+- visit the desired api endpoints
+
 ## Problem Statement
 
 Loop monitors several restaurants in the US and needs to monitor if the store is online or not. All restaurants are supposed to be online during their business hours. Due to some unknown reasons, a store might go inactive for a few hours. Restaurant owners want to get a report of how often this happened in the past.
